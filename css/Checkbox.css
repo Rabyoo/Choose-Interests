@@ -1,0 +1,177 @@
+:root {
+    --main-purple-color: #5c48f1;
+    --elements-background-color: #eeecfd;
+    --element-border-color: #e0e0e1;
+  }
+
+  * {
+    box-sizing: border-box;
+  }
+  body {
+    font-family: Arial, Helvetica, sans-serif;
+  }
+
+  .heading {
+    width: 85%;
+    height: 80px;
+    background-color: var(--elements-background-color);
+    position: relative;
+    left: 92px;
+    border-radius: 5px;
+  }
+  .heading h1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 25px;
+    font-weight: bold;
+    color: var(--main-purple-color);
+    position: relative;
+    top: 25px;
+  }
+.landing div {
+    background-color:white;
+    width: 270px;
+    height: 235px;
+    border-radius: 12px;
+    margin: 10px;
+    display: inline-block;
+    outline: 3px solid #e0e0e1;
+}
+.landing {
+    margin-left:80px;
+   
+}
+.landing input {
+    width: 25px;
+    height: 25px;
+    margin: 10px;
+    border-radius: 20px;
+    border: 3px solid #e0e0e1;
+}
+.landing .one i {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    top:20px;
+    color: var(--main-purple-color);
+}
+.landing .two i {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    top:20px;
+    color: var(--main-purple-color);
+}
+.landing .three i {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    top:20px;
+    color: var(--main-purple-color);
+}
+.landing .four i {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    top:20px;
+    color: var(--main-purple-color);
+}
+.landing .five i {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    top:20px;
+    color: var(--main-purple-color);
+}
+.landing .six i {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    top:20px;
+    color: var(--main-purple-color);
+}
+.landing .siven i {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    top:20px;
+    color: var(--main-purple-color);
+}
+.landing .aet i {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    top:20px;
+    color: var(--main-purple-color);
+}
+.landing .one h1 {
+    position: relative;
+    left: 90px;
+    top: 20px;
+}
+.landing .two h1 {
+    position: relative;
+    left: 80px;
+    top: 20px;
+}
+.landing .three h1 {
+    position: relative;
+    left: 80px;
+    top: 20px;
+}
+.landing .four h1 {
+  position: relative;
+  left: 100px;
+  top: 20px;
+}
+.landing .five h1 {
+    position: relative;
+    left: 100px;
+    top: 20px;
+}
+.landing .six h1 {
+    position: relative;
+    left: 93px;
+    top: 20px;
+}
+.landing .siven h1 {
+    position: relative;
+    left: 80px;
+    top: 20px;
+}
+.landing .aet h1 {
+    position: relative;
+    left: 85px;
+    top: 20px;
+}
+
+.landing .four:hover {
+  background-color: var(--elements-background-color);
+  outline: 3px solid var(--main-purple-color);
+}
+.landing .siven:hover {
+  background-color: var(--elements-background-color);
+  outline: 3px solid var(--main-purple-color);
+}
+
+@media (max-width:668px) {
+    .heading {
+        width: 558px;
+        margin-right: 150px;
+    }
+    .landing {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+
